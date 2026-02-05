@@ -1,0 +1,24 @@
+{
+  "name": "splitmint",
+  "version": "1.0.0",
+  "description": "Luxury expense-splitting web application",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build"
+  },
+  "keywords": [
+    "expense",
+    "splitting",
+    "fintech"
+  ],
+  "author": "",
+  "license": "MIT"
+}
